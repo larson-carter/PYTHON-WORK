@@ -2,34 +2,37 @@ import datetime
 
 now = datetime.datetime.now()
 
-# HERE IS THE INDIVITUAL PUT TOGETHER METHODS
-
-"""
-print("Current year: %d" % now.year)
-
-print("Current month: %d" % now.month)
-
-print("Current day: %d" % now.day)
-
-print("Current hour: %d" % now.hour)
-
-print("Current minute: %d" % now.minute)
-
-print("Current second: %d" % now.second)
-
-print("Current microsecond: %d" % now.microsecond)
-"""
-
-"""
-print("Current date and time using strftime:")
-
-print(now.strftime("%Y-%m-%d %H:%M"))
-
-"""
-
 print("It is:")
+
 print(now.year)
-print(now.month)
+
+if (now.month) == 1:
+    print("January")   
+elif (now.month) == 2:
+    print("Feburary")
+elif (now.month) == 3:
+    print("March")
+elif (now.month) == 4:
+    print("April")
+elif (now.month) == 5:
+    print("May")
+elif (now.month) == 6:
+    print("June")
+elif (now.month) == 7:
+    print("July")
+elif (now.month) == 8:
+    print("August") 
+elif (now.month) == 9:
+    print("September")
+elif (now.month) == 10:
+    print("October")
+elif (now.month) == 11:
+    print("November")  
+elif (now.month) == 12:
+    print("December")
+else:
+    print("Error!")
+    
 print(now.day)
 print(now.hour)
 print(now.minute)
