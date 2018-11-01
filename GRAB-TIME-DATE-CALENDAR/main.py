@@ -91,4 +91,6 @@ colon = ":"
 hour = currentDate.hour
 minute = currentDate.minute
 second = currentDate.second
+print("┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅")
 print(year, colon, month, colon, day, colon, hour, colon, minute, colon, second)
+print("┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅")
