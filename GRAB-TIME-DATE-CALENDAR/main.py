@@ -2,29 +2,29 @@ import datetime
 now = datetime.datetime.now()
 print(now.year)
 if (now.month) == 1:
-    print("January")
+    month = "January"
 elif (now.month) == 2:
-    print("Feburary")
+    month = "February"
 elif (now.month) == 3:
-    print("March")
+    month = "March"
 elif (now.month) == 4:
-    print("April")
+    month = "April"
 elif (now.month) == 5:
-    print("May")
+    month = "May"
 elif (now.month) == 6:
-    print("June")
+    month = "June"
 elif (now.month) == 7:
-    print("July")
+    month = "July"
 elif (now.month) == 8:
-    print("August")
+    month = "August"
 elif (now.month) == 9:
-    print("September")
+    month = "September"
 elif (now.month) == 10:
-    print("October")
+    month = "October"
 elif (now.month) == 11:
-    print("November")
+    month = "November"
 elif (now.month) == 12:
-    print("December")
+    month = "December"
 if now.day == 1:
     print("1st")
 if now.day == 2:
