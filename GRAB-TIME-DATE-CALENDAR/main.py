@@ -25,8 +25,6 @@ elif (now.month) == 11:
     print("November")
 elif (now.month) == 12:
     print("December")
-else:
-    print("Error!")
 if now.day == 1:
     print("1st")
 if now.day == 2:
