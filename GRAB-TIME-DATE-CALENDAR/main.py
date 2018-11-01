@@ -26,66 +26,66 @@ elif (now.month) == 11:
 elif (now.month) == 12:
     month = "December"
 if now.day == 1:
-    print("1st")
+    day = "1st"
 if now.day == 2:
-    print("2nd")
+    day = "2nd"
 if now.day == 3:
-    print("3rd")
+    day = "3rd"
 if now.day == 4:
-    print("4th")
+    day = "4th"
 if now.day == 5:
-    print("5th")
+    day = "5th"
 if now.day == 6:
-    print("6th")
+    day = "6th"
 if now.day == 7:
-    print("7th")
+    day = "7th"
 if now.day == 8:
-    print("8th")
+    day = "8th"
 if now.day == 9:
-    print("9th")
+    day = "9th"
 if now.day == 10:
-    print("10th")
+    day = "10th"
 if now.day == 11:
-    print("11th")
+    day = "11th"
 if now.day == 12:
-    print("12th")
+    day = "12th"
 if now.day == 13:
-    print("13ht")
+    day = "13th"
 if now.day == 14:
-    print("14ht")
+    day = "14th"
 if now.day == 15:
-    print("15th")
+    day = "15th"
 if now.day == 16:
-    print("16th")
+    day = "16th"
 if now.day == 17:
-    print("17th")
+    day = "17th"
 if now.day == 18:
-    print("18th")
+    day = "18th"
 if now.day == 19:
-    print("19th")
+    day = "19th"
 if now.day == 20:
-    print("20th")
+    day = "20th"
 if now.day == 21:
-    print("21st")
+    day = "21st"
 if now.day == 22:
-    print("22nd")
+    day = "22nd"
 if now.day == 23:
-    print("23rd")
+    day = "23rd"
 if now.day == 24:
-    print("24th")
+    day = "24th"
 if now.day == 25:
-    print("25th")
+    day = "25th"
 if now.day == 26:
-    print("26th")
+    day = "26th"
 if now.day == 27:
-    print("27th")
+    day = "27th"
 if now.day == 28:
-    print("28th")
+    day = "28th"
 if now.day == 29:
-    print("29th")
+    day = "29th"
 if now.day == 30:
-    print("30th")
+    day = "30th"
 if now.day == 31:
-    print("31st")
+    day = "31st"
 print(month, ":", now.hour, ":", now.minute, ":", now.second)
 print("END-OF-PROGRAM")
