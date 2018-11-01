@@ -87,7 +87,5 @@ if now.day == 30:
     print("30th")
 if now.day == 31:
     print("31st")
-print(now.hour)
-print(now.minute)
-print(now.second)
-print("END OF PROGRAM")
+print(now.hour, ":", now.minute, ":", now.second)
+print("END-OF-PROGRAM")
